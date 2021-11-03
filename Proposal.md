@@ -13,7 +13,6 @@ will leave the company or not.
 
 ### *Data*
 I am working in this [dataset](https://www.kaggle.com/lnvardanyan/hr-analytics)     
-
 The data contains 14,999 employees observation with 10 features. The features contain the employee satisfaction rate, evaluated performance by the employer, number of 
 projects for each employee, average number of hours worked per month, number of years spent by an employee in the company, whether an employee has had a work accident
 or not, an employee had a promotion in the last 5 years or not, the employee has left the company or not, the department in which the employee works and salary level.
@@ -21,21 +20,21 @@ or not, an employee had a promotion in the last 5 years or not, the employee has
 
 ### *Algorithms*
 *Feature Engineering*
-•	Rename column names to more readable.
-•	Not have null/missing values.
-•	has 3,008 duplicate values.
-•	Convert categorical data using get dummies.
-•	Split data into training and testing datasets.
+•	Rename column names to more readable.    
+•	Not have null/missing values.     
+•	has 3,008 duplicate values.                        
+•	Convert categorical data using get dummies.          
+•	Split data into training and testing datasets.               
 
 *Models*
 The problem is predicting whether an employee is going to leave or not leave the company.
 So, the data is classification.
 
-* I apply four models:*
-•	Baseline is the result of a basic model. You generally create a baseline and then try to make more complex solutions in order to get a better result. If you achieve a better score than the baseline, it is good.
-•	Logistic Regression.
-•	K-Nearest Neighbors (KNN).
-•	Random Forest Classifier.
+* I apply four models:*                         
+•	Baseline is the result of a basic model. You generally create a baseline and then try to make more complex solutions in order to get a better result. If you achieve a better score than the baseline, it is good.                    
+•	Logistic Regression.                      
+•	K-Nearest Neighbors (KNN).            
+•	Random Forest Classifier.                
 
 
 ### *Tools*
