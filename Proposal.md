@@ -19,26 +19,26 @@ or not, an employee had a promotion in the last 5 years or not, the employee has
 
 
 ### *Algorithms*
-*Feature Engineering*
+*Feature Engineering*                                   
 •	Rename column names to more readable.    
 •	Not have null/missing values.     
 •	has 3,008 duplicate values.                        
 •	Convert categorical data using get dummies.          
 •	Split data into training and testing datasets.               
 
-*Models*
+*Models*                                             
 The problem is predicting whether an employee is going to leave or not leave the company.
-So, the data is classification.
+So, the data is classification.                                  
 
-* I apply four models:*                         
-•	Baseline is the result of a basic model. You generally create a baseline and then try to make more complex solutions in order to get a better result. If you achieve a better score than the baseline, it is good.                    
+*I apply four models:*                                           
+•	Baseline is the result of a basic model. You generally create a baseline and then try to make more complex solutions in order to get a better result. If you achieve a         better score than the baseline, it is good.                    
 •	Logistic Regression.                      
 •	K-Nearest Neighbors (KNN).            
 •	Random Forest Classifier.                
 
 
 ### *Tools*
-I am using Python language and these packages are:
-•	Pandas and Numpy for EDA.
-•	Matplotlib and Seaborn for visualization.
-•	Scikit-learn for modelling.
+I am using Python language and these packages are:                          
+•	Pandas and Numpy for EDA.               
+•	Matplotlib and Seaborn for visualization.                  
+•	Scikit-learn for modelling.                          
