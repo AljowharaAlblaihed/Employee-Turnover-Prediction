@@ -87,7 +87,7 @@ have an uneven class distribution.
 The most influential factor was employee satisfaction rate and  which had a score of 0.35.
 
 ### Compare Models
-![Comparing Models](https://user-images.githubusercontent.com/75037992/142293815-021378a7-224b-4a60-b2b5-461b766f0442.jpg)
+![Comparing Models](https://user-images.githubusercontent.com/75037992/142294100-b2cfdb09-6ad2-4e47-beb9-843ad941a5ed.png)
 
 Achieved the best result in Random Forest Classifier Model and had a score of 93.9%.
 
