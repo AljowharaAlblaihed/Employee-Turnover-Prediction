@@ -1,18 +1,19 @@
 # Employee Turnover Prediction 
 ## Aljowhara Alblaihed 
-### Abstract
+
+## Abstract
 The goal of this project was to use classification models to predict whether an employee is going to leave or not leave the organization in
 the coming period. worked with data provided by kaggle. I worked on some steps to help me how the companies and employees to increase employee
 productivity, growth and a healthy environment in the company, and they steps are exploratory data analysis and data visualization after that 
 built four models and includes Baseline, Logistic Regression, K-Nearest Neighbors and Random Forest.
 
 
-### Design
+## Design
 The data is provided by kaggle. and have two class and they are Turnover and Not Turnover. Classifying statuses accurately via machine learning
 models would enable the companies to take actions to improve company quality and productivity, maintain employees and company budget.
 
 
-### Data
+## Data
 #### The dataset contains 14,999 employees and 10 Features. 
 satisfaction_level: It’s the employee satisfaction rate, and values between 0-1.
 last_evaluation: It’s evaluated performance by the employer, and values between 0-1.
@@ -26,14 +27,14 @@ Sales: Employee’s working department.
 Salary: Salary level of the employee and have 3 levels low, medium and high.
 
 
-### Algorithms
+## Algorithms
 #### Feature Engineering
 •	Rename columns for more readable.
 •	Drop duplicated data.
 •	Converting categorical features to binary dummy variables.
 
 
-### Models
+## Models
 I used 4 models to predict the Employee Turnover rate and they are Baseline, Logistic regression, k-nearest neighbors, and random forest classifiers.
 Random forest as the model with strongest performance. 
 
@@ -48,24 +49,27 @@ class distribution and they are:
 •	Random Forest had a score of 93.9%.
 
 
-### Tools
+## Tools
 •	Numpy and Pandas for data manipulation.
 •	Matplotlib and Seaborn for plotting.
 •	Scikit-learn for modeling.
 
 
-### Communication
+## Communication
 
 #### Target Distribution
 ![unnamed (2)](https://user-images.githubusercontent.com/75037992/142291073-732324b1-7b6a-4498-8663-c3eda4875d4e.jpg)
+
 83.40% of employees stayed (not turnover) and 16.60% of employee left the company (turnover).
 have an uneven class distribution.
 
 #### Correlation Between Features
-![Correlation Between Features](https://user-images.githubusercontent.com/75037992/142291236-5b9cad77-8c31-43da-8e87-d7ef1581a336.jpg)
+![Correlation Between Features](https://user-images.githubusercontent.com/75037992/142292475-0315486f-5531-4eda-b355-8fa67129f945.jpg)
+
 The most influential factor was employee satisfaction rate and  which had a score of 0.35.
 
 #### Compare Models
 ![unnamed (7)](https://user-images.githubusercontent.com/75037992/142291355-97e656d4-383c-499b-84ca-e6b097c42bc5.jpg)
+
 Achieved the best result in Random Forest Classifier Model and had a score of 93.9%.
 
