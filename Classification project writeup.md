@@ -57,7 +57,9 @@ class distribution and they are:
 
 ## Tools
 •	Numpy and Pandas for data manipulation.
+
 •	Matplotlib and Seaborn for plotting.
+
 •	Scikit-learn for modeling.
 
 
