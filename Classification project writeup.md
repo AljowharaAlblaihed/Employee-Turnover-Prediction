@@ -45,9 +45,13 @@ Split data into training and testing datasets. 70 train size and 30 test size.
 Baseline model was very poorly performing and f1 score is 0.
 The data is imbalance so I used f1 score as evaluation measure and F1 score is usually more useful than accuracy, especially if you have an uneven
 class distribution and they are:
+
 •	Baseline Model had a score of 0%.
+
 •	Logistic Regression had a score of 25%.
+
 •	K-Nearest Neighbors had a score of 84.5%.
+
 •	Random Forest had a score of 93.9%.
 
 
