@@ -15,15 +15,25 @@ models would enable the companies to take actions to improve company quality and
 
 ## Data
 #### The dataset contains 14,999 employees and 10 Features. 
+
 satisfaction_level: It’s the employee satisfaction rate, and values between 0-1.
+
 last_evaluation: It’s evaluated performance by the employer, and values between 0-1.
+
 number_projects: Number of projects completed while at work.
+
 average_monthly_hours: Average monthly hours at workplace.
+
 time_spend_company: Time spent at the company in years.
+
 Work_accident: Whether the employee had a workplace accident, and values 0 or 1.
+
 Left: Whether the employee left the workplace, and values 0 or 1.
+
 promotion_last_5years: Whether the employee was promoted in the last five years.
+
 Sales: Employee’s working department.
+
 Salary: Salary level of the employee and have 3 levels low, medium and high.
 
 
@@ -65,18 +75,18 @@ class distribution and they are:
 
 ## Communication
 
-#### Target Distribution
+### Target Distribution
 ![unnamed (2)](https://user-images.githubusercontent.com/75037992/142291073-732324b1-7b6a-4498-8663-c3eda4875d4e.jpg)
 
 83.40% of employees stayed (not turnover) and 16.60% of employee left the company (turnover).
 have an uneven class distribution.
 
-#### Correlation Between Features
+### Correlation Between Features
 ![Correlation Between Features](https://user-images.githubusercontent.com/75037992/142292475-0315486f-5531-4eda-b355-8fa67129f945.jpg)
 
 The most influential factor was employee satisfaction rate and  which had a score of 0.35.
 
-#### Compare Models
+### Compare Models
 ![unnamed (7)](https://user-images.githubusercontent.com/75037992/142291355-97e656d4-383c-499b-84ca-e6b097c42bc5.jpg)
 
 Achieved the best result in Random Forest Classifier Model and had a score of 93.9%.
