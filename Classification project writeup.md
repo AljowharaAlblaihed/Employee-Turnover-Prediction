@@ -30,7 +30,9 @@ Salary: Salary level of the employee and have 3 levels low, medium and high.
 ## Algorithms
 #### Feature Engineering
 •	Rename columns for more readable.
+
 •	Drop duplicated data.
+
 •	Converting categorical features to binary dummy variables.
 
 
